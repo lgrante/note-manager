@@ -3,7 +3,6 @@ const router = express.Router()
 const fs = require('fs')
 
 const note = require('../service/Note')
-const { captureRejectionSymbol } = require('events')
 const filepath = '../data/notes.json'
 
 const queryToNote = (query) => ({
